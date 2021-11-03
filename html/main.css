@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+body {
+	overflow: hidden;
+}
+
+#container {
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	left: 1%;
+	bottom: 25%;
+}
+
+.notify {
+	padding: 3%;
+	background: rgb(23,23,23,0.7);
+	border-radius: 5px;
+	margin-top: 5%;
+	overflow: hidden;
+  	animation-name: slideInLeft;
+  	animation-duration: 0.5s;
+  	animation-fill-mode: both;
+}
+
+.icon {
+	position: absolute;
+	top: 25%;
+	left: 7%;
+	max-width: 30px;
+}
+
+
+.notify-type {
+	color: #fff;
+	font-weight: 500;
+	font-size: 15px;
+	margin-top: -1%;
+	margin-left: 25%;
+}
+
+.notify-text {
+	color: #fff;
+	padding-top: 1%;
+	padding-left: 15.5%;
+	padding-bottom: 0.2%;
+	margin-left: 10%;
+	font-weight: 500;
+	font-size: 11px;
+}
+
+@keyframes anim {
+	from {
+		width: 105%;
+	}
+
+	to {
+		width: 0%;
+	}
+}
+
+.notify-bsucesso {
+	position: absolute;
+	top: 95%;
+	background: #01bb09;
+	width: 105%;
+	margin-left: -5%;
+	height: 5%;
+
+	animation-name: anim;
+	animation-duration: 9s;
+}
+
+.notify-bnegado {
+	position: absolute;
+	top: 95%;
+	background: #ff0000;
+	width: 105%;
+	margin-left: -5%;
+	height: 5%;
+
+
+	animation-name: anim;
+	animation-duration: 9s;
+}
+
+.notify-baviso {
+	position: absolute;
+	top: 95%;
+	background: #d6bb03;
+	width: 105%;
+	margin-left: -5%;
+	height: 5%;
+
+	animation-name: anim;
+	animation-duration: 9s;
+}
+
+.notify-bimp {
+	position: absolute;
+	top: 95%;
+	background: #00ffff;
+	width: 105%;
+	margin-left: -5%;
+	height: 5%;
+
+
+	animation-name: anim;
+	animation-duration: 9s;
+}
+
+
+.notifyy {
+	padding: 5%;
+	width: 25%;
+	background: rgb(23,23,23,0.7);
+	border-radius: 5px;
+	margin-top: 5%;
+	overflow: hidden;
+  	animation-name: slideInLeft;
+  	animation-duration: 0.5s;
+  	animation-fill-mode: both;
+}
+
+.notifyyy {
+	padding: 5%;
+	width: 25%;
+	background: rgb(23,23,23,0.7);
+	border-radius: 5px;
+	margin-top: 5%;
+	overflow: hidden;
+  	animation-name: slideInLeft;
+  	animation-duration: 0.5s;
+  	animation-fill-mode: both;
+}
+
+.notify-typee {
+	color: #fff;
+	font-weight: 500;
+	font-family: arial black;
+	font-size: 15px;
+	margin-top: -10%;
+	margin-left: -10%;
+}
+
+.notify-textt {
+	color: #fff;
+	margin-left: -10%;
+	font-weight: 500;
+	margin-top: 10%;
+	font-size: 13px;
+}
+
+
+.notify-rr {
+	position: absolute;
+	bottom: 0%;
+	background: linear-gradient(90deg, rgba(40,236,0,0.969625350140056) 0%, rgba(50,255,253,1) 38%, rgba(76,105,197,1) 65%, rgba(193,53,208,1) 81%, rgba(255,40,40,0.9556197478991597) 100%);
+	min-width: 110%;
+	margin-left: -20%;
+	height: 3%;
+}
+
+
+@keyframes slideInRight {
+	0% {
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+		visibility: visible;
+	}
+	100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+}
+
+@keyframes animateIcon {
+	0% {
+		transform: rotate(0deg);
+	}25% {
+		transform: rotate(-15deg);
+	}50% {
+		transform: rotate(15deg);
+	}100% {
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes slideInLeft {
+	0% {
+		-webkit-transform: translateX(-100%);
+		transform: translateX(-100%);
+		visibility: visible;
+	}
+	100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+}

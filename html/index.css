@@ -1,0 +1,105 @@
+body {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+#container {
+	font-family: 'Josefin Sans', sans-serif;
+	float: right;
+	padding-top: 7.5%;
+}
+.barra-container {
+	background-image: url('images/barra.png');
+	width: 229px;
+	height: 106px;
+	margin-top: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation-duration: 1s;
+}
+.container-icon {
+	width: 64px;
+	height: 64px;
+	top: 23px;
+	left: 19.08px;
+	animation-name: IconRotate;
+	animation-delay: 1s;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.container-icon.sucesso{
+	background-image: url('images/sucesso.png');
+}
+.container-icon.negado{
+	background-image: url('images/negado.png');
+}
+.container-icon.aviso{
+	background-image: url('images/aviso.png');
+}
+.container-icon.importante{
+	background-image: url('images/importante.png');
+}
+.container-icon.policia{
+	background-image: url('images/policia.png');
+}
+.container-text {
+	top: 1.5px;
+	left: 97.5px;
+}
+
+.titulo {
+	margin-bottom: 2px;
+}
+.titulo.alerta{
+	color: rgb(255, 0, 0);
+}
+.titulo.importante {
+	color: rgb(49, 145, 255);
+}
+.titulo.policia {
+	color: rgb(231, 28, 140);
+}
+.titulo.negado {
+	color: rgb(255, 72, 59);
+}
+.titulo.sucesso {
+	color: rgb(49, 255, 83);
+}
+.description {
+	font-size: 13px;
+	color: white;
+	text-align: left;
+	overflow: visible;
+	text-overflow: clip;
+	height: 30px;
+	width: 134px;
+}
+b {
+	font-weight: bold;
+	color: red;
+}
+#timer {
+	font-weight: bold;
+	color: red;
+}
+
+@keyframes IconRotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(-15deg);
+	}
+	75% {
+		transform: rotate(15deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}

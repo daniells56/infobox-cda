@@ -1,0 +1,20 @@
+<meta>
+    <script src="client.lua" type="client" cache="false" />
+    <script src="server.lua" type="server" cache="false" />
+    <file src="html/index.css" />
+    <file src="html/index.html" />
+    <file src="html/index.js" />
+    <file src="html/jquery.js" />
+    <file src="html/main.css" />
+    <file src="html/main.js" />
+    <file src="html/jquery.toast.css" />
+    <file src="html/howler.min.js" />
+    <file src="html/jquery-3.5.1.js" />
+    <file src="html/jquery.toast.js" />
+    <file src="html/assets/aviso.png" />
+    <file src="html/assets/demo.ogg" />
+    <file src="html/assets/importante.png" />
+    <file src="html/assets/lock.wav" />
+    <file src="html/assets/negado.png" />
+    <file src="html/assets/sucesso.png" />
+</meta>
